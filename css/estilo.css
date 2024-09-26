@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    height: 500px;
+    background-color: rgb(246, 242, 242);
+    background-image: url("../img/stgo.jpg");
+
+}
+
+
+nav{
+    height: 50%;
+    width: 90%;
+    background-color: rgb(150, 150, 89);
+    background-image: url("../img/SMV.jpeg")
+
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+
+li{
+    display: inline-block;
+    width: 18%
+}
+
+a{
+    color: rgb(10, 10, 10);
+    font-size: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    
+}
+
+h1{
+    font-size:60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(114, 7, 7);
+
+}
+
+p{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(79, 79, 38);
+}
+
+.titulo2{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(114, 7, 7);
+}
+
+.padre{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.pedro{
+    width: 100%;
+    font-size: 30px;
+    height: 100px;
+
+    background-color: rgb(150, 150, 89)
+    
+
+}
+
+#id1{
+
+padding: 80px;
+height: 20%;
+    width: 60px;
+    
+    color: aliceblue;
+    background-image: url("../img/aeropuerto.jpeg")
+    
+}
+
+#id2{
+
+    padding: 80px;
+    height: 20%;
+    width: 60px;
+    background-color: black;
+    color: aliceblue;
+    background-image: url("../img/stgo\ imagen.jpeg")
+} 
+
+#id3{
+ 
+    padding: 80px;
+    height: 20%;
+    width: 60px;
+    background-color: black;
+    color: aliceblue;
+    background-image: url("../img/valpo.jpeg")
+}
+
+#id4{
+
+    padding: 80px;
+    height: 20%;
+    width: 60px;
+    background-color: black;
+    color: aliceblue;
+    background-image: url("../img/viñadel\ mar.jpeg")
+    
+
+}
+
+#id5{
+ 
+    padding: 80px;
+    height: 20%;
+    width: 60px;
+    background-color: black;
+    color: aliceblue;
+    background-image: url("../img/rancagua.jpeg")
+}
+
+#id6{
+    padding: 80px;
+    height: 20%;
+    width: 60px;
+    background-color: black;
+    color: aliceblue;
+    background-image: url("../img/viñas.jpeg")
+}
+
+main{
+
+    height: 500px;
+    background-color: rgb(163, 216, 163);
+
+    .padre{
+        display:flex;
+        flex-direction: row;
+        background-color: rgb(243, 240, 240);
+        height: 35%;
+        width: 98%;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+ 
+    .carta{
+        display:flex;
+        flex-direction: column;
+        background-color: rgb(243, 240, 240);
+        height: 100px;
+        width: 30%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+
+
+
+
+}
+footer{
+
+    height: 200px;
+    background-color: rgb(2, 14, 2);
+   
+}
+
+.parrafofooter{
+    font-size:30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
